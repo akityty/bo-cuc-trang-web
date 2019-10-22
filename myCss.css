@@ -1,72 +1,36 @@
-body {
-    margin: 0;
-}
-
-.head {
-    overflow: hidden;
-    background-color: brown;
-    position: relative;
-    top: 0;
-    width: 100%;
-}
-
-.head a {
-    display: block;
-    float: left;
-    color: #f2f2f2;
+* {
+    box-sizing: border-box;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
 }
-.head-link{
-    background-color: aqua;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    height: 50px;
-}
-.main {
 
-    padding: 10px 10px 10px 10px;
-    margin: 20px 20px 20px 20px;
-    height: 500px;
-   /* background-color: darkblue;*/
+header {
+    background-color: #666;
+    padding: 30px;
+    font-size: 35px;
+    color: white;
 }
-.left{
-    padding: 10px 10px 10px 10px;
-    margin: 30px 20px 20px 20px;
-    width: 200px;
-    height: 400px;
+
+
+.left,
+.right {
+    background-color: antiquewhite;
     float: left;
-    left: 0;
-    background-color: brown;
-    position: absolute;
+    width: 20%;
+    padding: 15px;
+    height: 300px;
 }
-.content{
-    padding: 10px 10px 10px 10px;
-    margin: 30px 20px 20px 30px;
-    width: 840px;
-    height: 400px;
-    background-color: darkviolet;
-    position: absolute;
+
+section {
     float: left;
-    left: 220px ;
+    padding: 20px;
+    width: 60%;
+    background-color: #f1f1f1;
+    height: 300px;
 }
-.right{
-    padding: 10px 10px 10px 10px;
-    margin: 30px 30px 20px 20px;
-    width: 200px;
-    height: 400px;
-    float: left;
-    left: 1100px;
-    background-color: gold;
-    position: absolute;
-}
-.footer{
-    background-color: darkgoldenrod;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-    height: 50px;
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    color: white;
+    clear: both;
 }
