@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+.head {
+    overflow: hidden;
+    background-color: brown;
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.head a {
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.head-link{
+    background-color: aqua;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+}
+.main {
+
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    height: 500px;
+   /* background-color: darkblue;*/
+}
+.left{
+    padding: 10px 10px 10px 10px;
+    margin: 30px 20px 20px 20px;
+    width: 200px;
+    height: 400px;
+    float: left;
+    left: 0;
+    background-color: brown;
+    position: absolute;
+}
+.content{
+    padding: 10px 10px 10px 10px;
+    margin: 30px 20px 20px 30px;
+    width: 840px;
+    height: 400px;
+    background-color: darkviolet;
+    position: absolute;
+    float: left;
+    left: 220px ;
+}
+.right{
+    padding: 10px 10px 10px 10px;
+    margin: 30px 30px 20px 20px;
+    width: 200px;
+    height: 400px;
+    float: left;
+    left: 1100px;
+    background-color: gold;
+    position: absolute;
+}
+.footer{
+    background-color: darkgoldenrod;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+}
